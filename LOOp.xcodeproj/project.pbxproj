@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB500DD41CF2DD6600369673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DD31CF2DD6600369673 /* main.m */; };
+		DB500DD71CF2DD6600369673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DD61CF2DD6600369673 /* AppDelegate.m */; };
+		DB500DDA1CF2DD6600369673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DD91CF2DD6600369673 /* ViewController.m */; };
+		DB500DDD1CF2DD6700369673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB500DDB1CF2DD6700369673 /* Main.storyboard */; };
+		DB500DE01CF2DD6700369673 /* LOOp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB500DDE1CF2DD6700369673 /* LOOp.xcdatamodeld */; };
+		DB500DE21CF2DD6700369673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB500DE11CF2DD6700369673 /* Assets.xcassets */; };
+		DB500DE51CF2DD6700369673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB500DE31CF2DD6700369673 /* LaunchScreen.storyboard */; };
+		DB500DF01CF2DD6700369673 /* LOOpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DEF1CF2DD6700369673 /* LOOpTests.m */; };
+		DB500DFB1CF2DD6700369673 /* LOOpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DFA1CF2DD6700369673 /* LOOpUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB500DEC1CF2DD6700369673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB500DC71CF2DD6600369673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB500DCE1CF2DD6600369673;
+			remoteInfo = LOOp;
+		};
+		DB500DF71CF2DD6700369673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB500DC71CF2DD6600369673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB500DCE1CF2DD6600369673;
+			remoteInfo = LOOp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB500DCF1CF2DD6600369673 /* LOOp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOOp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB500DD31CF2DD6600369673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB500DD51CF2DD6600369673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB500DD61CF2DD6600369673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB500DD81CF2DD6600369673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB500DD91CF2DD6600369673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB500DDC1CF2DD6700369673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB500DDF1CF2DD6700369673 /* LOOp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOOp.xcdatamodel; sourceTree = "<group>"; };
+		DB500DE11CF2DD6700369673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB500DE41CF2DD6700369673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB500DE61CF2DD6700369673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB500DEB1CF2DD6700369673 /* LOOpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOOpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB500DEF1CF2DD6700369673 /* LOOpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOOpTests.m; sourceTree = "<group>"; };
+		DB500DF11CF2DD6700369673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB500DF61CF2DD6700369673 /* LOOpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOOpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB500DFA1CF2DD6700369673 /* LOOpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOOpUITests.m; sourceTree = "<group>"; };
+		DB500DFC1CF2DD6700369673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB500DCC1CF2DD6600369673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DE81CF2DD6700369673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DF31CF2DD6700369673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB500DC61CF2DD6600369673 = {
+			isa = PBXGroup;
+			children = (
+				DB500DD11CF2DD6600369673 /* LOOp */,
+				DB500DEE1CF2DD6700369673 /* LOOpTests */,
+				DB500DF91CF2DD6700369673 /* LOOpUITests */,
+				DB500DD01CF2DD6600369673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB500DD01CF2DD6600369673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB500DCF1CF2DD6600369673 /* LOOp.app */,
+				DB500DEB1CF2DD6700369673 /* LOOpTests.xctest */,
+				DB500DF61CF2DD6700369673 /* LOOpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB500DD11CF2DD6600369673 /* LOOp */ = {
+			isa = PBXGroup;
+			children = (
+				DB500DD51CF2DD6600369673 /* AppDelegate.h */,
+				DB500DD61CF2DD6600369673 /* AppDelegate.m */,
+				DB500DD81CF2DD6600369673 /* ViewController.h */,
+				DB500DD91CF2DD6600369673 /* ViewController.m */,
+				DB500DDB1CF2DD6700369673 /* Main.storyboard */,
+				DB500DE11CF2DD6700369673 /* Assets.xcassets */,
+				DB500DE31CF2DD6700369673 /* LaunchScreen.storyboard */,
+				DB500DE61CF2DD6700369673 /* Info.plist */,
+				DB500DDE1CF2DD6700369673 /* LOOp.xcdatamodeld */,
+				DB500DD21CF2DD6600369673 /* Supporting Files */,
+			);
+			path = LOOp;
+			sourceTree = "<group>";
+		};
+		DB500DD21CF2DD6600369673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB500DD31CF2DD6600369673 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB500DEE1CF2DD6700369673 /* LOOpTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB500DEF1CF2DD6700369673 /* LOOpTests.m */,
+				DB500DF11CF2DD6700369673 /* Info.plist */,
+			);
+			path = LOOpTests;
+			sourceTree = "<group>";
+		};
+		DB500DF91CF2DD6700369673 /* LOOpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB500DFA1CF2DD6700369673 /* LOOpUITests.m */,
+				DB500DFC1CF2DD6700369673 /* Info.plist */,
+			);
+			path = LOOpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB500DCE1CF2DD6600369673 /* LOOp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB500DFF1CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOp" */;
+			buildPhases = (
+				DB500DCB1CF2DD6600369673 /* Sources */,
+				DB500DCC1CF2DD6600369673 /* Frameworks */,
+				DB500DCD1CF2DD6600369673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOOp;
+			productName = LOOp;
+			productReference = DB500DCF1CF2DD6600369673 /* LOOp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB500DEA1CF2DD6700369673 /* LOOpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB500E021CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpTests" */;
+			buildPhases = (
+				DB500DE71CF2DD6700369673 /* Sources */,
+				DB500DE81CF2DD6700369673 /* Frameworks */,
+				DB500DE91CF2DD6700369673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB500DED1CF2DD6700369673 /* PBXTargetDependency */,
+			);
+			name = LOOpTests;
+			productName = LOOpTests;
+			productReference = DB500DEB1CF2DD6700369673 /* LOOpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB500DF51CF2DD6700369673 /* LOOpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB500E051CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpUITests" */;
+			buildPhases = (
+				DB500DF21CF2DD6700369673 /* Sources */,
+				DB500DF31CF2DD6700369673 /* Frameworks */,
+				DB500DF41CF2DD6700369673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB500DF81CF2DD6700369673 /* PBXTargetDependency */,
+			);
+			name = LOOpUITests;
+			productName = LOOpUITests;
+			productReference = DB500DF61CF2DD6700369673 /* LOOpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB500DC71CF2DD6600369673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "iGO Studio";
+				TargetAttributes = {
+					DB500DCE1CF2DD6600369673 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DB500DEA1CF2DD6700369673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB500DCE1CF2DD6600369673;
+					};
+					DB500DF51CF2DD6700369673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB500DCE1CF2DD6600369673;
+					};
+				};
+			};
+			buildConfigurationList = DB500DCA1CF2DD6600369673 /* Build configuration list for PBXProject "LOOp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB500DC61CF2DD6600369673;
+			productRefGroup = DB500DD01CF2DD6600369673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB500DCE1CF2DD6600369673 /* LOOp */,
+				DB500DEA1CF2DD6700369673 /* LOOpTests */,
+				DB500DF51CF2DD6700369673 /* LOOpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB500DCD1CF2DD6600369673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB500DE51CF2DD6700369673 /* LaunchScreen.storyboard in Resources */,
+				DB500DE21CF2DD6700369673 /* Assets.xcassets in Resources */,
+				DB500DDD1CF2DD6700369673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DE91CF2DD6700369673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DF41CF2DD6700369673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB500DCB1CF2DD6600369673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB500DDA1CF2DD6600369673 /* ViewController.m in Sources */,
+				DB500DD71CF2DD6600369673 /* AppDelegate.m in Sources */,
+				DB500DD41CF2DD6600369673 /* main.m in Sources */,
+				DB500DE01CF2DD6700369673 /* LOOp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DE71CF2DD6700369673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB500DF01CF2DD6700369673 /* LOOpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB500DF21CF2DD6700369673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB500DFB1CF2DD6700369673 /* LOOpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB500DED1CF2DD6700369673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB500DCE1CF2DD6600369673 /* LOOp */;
+			targetProxy = DB500DEC1CF2DD6700369673 /* PBXContainerItemProxy */;
+		};
+		DB500DF81CF2DD6700369673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB500DCE1CF2DD6600369673 /* LOOp */;
+			targetProxy = DB500DF71CF2DD6700369673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB500DDB1CF2DD6700369673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB500DDC1CF2DD6700369673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB500DE31CF2DD6700369673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB500DE41CF2DD6700369673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB500DFD1CF2DD6700369673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB500DFE1CF2DD6700369673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB500E001CF2DD6700369673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LOOp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB500E011CF2DD6700369673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LOOp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB500E031CF2DD6700369673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LOOpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOOp.app/LOOp";
+			};
+			name = Debug;
+		};
+		DB500E041CF2DD6700369673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LOOpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOOp.app/LOOp";
+			};
+			name = Release;
+		};
+		DB500E061CF2DD6700369673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LOOpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LOOp;
+			};
+			name = Debug;
+		};
+		DB500E071CF2DD6700369673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LOOpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iGOstudio.LOOpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LOOp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB500DCA1CF2DD6600369673 /* Build configuration list for PBXProject "LOOp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB500DFD1CF2DD6700369673 /* Debug */,
+				DB500DFE1CF2DD6700369673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB500DFF1CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB500E001CF2DD6700369673 /* Debug */,
+				DB500E011CF2DD6700369673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB500E021CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB500E031CF2DD6700369673 /* Debug */,
+				DB500E041CF2DD6700369673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB500E051CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB500E061CF2DD6700369673 /* Debug */,
+				DB500E071CF2DD6700369673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB500DDE1CF2DD6700369673 /* LOOp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB500DDF1CF2DD6700369673 /* LOOp.xcdatamodel */,
+			);
+			currentVersion = DB500DDF1CF2DD6700369673 /* LOOp.xcdatamodel */;
+			path = LOOp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB500DC71CF2DD6600369673 /* Project object */;
+}
