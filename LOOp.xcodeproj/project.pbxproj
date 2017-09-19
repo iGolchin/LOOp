@@ -16,6 +16,8 @@
 		DB500DE51CF2DD6700369673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB500DE31CF2DD6700369673 /* LaunchScreen.storyboard */; };
 		DB500DF01CF2DD6700369673 /* LOOpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DEF1CF2DD6700369673 /* LOOpTests.m */; };
 		DB500DFB1CF2DD6700369673 /* LOOpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500DFA1CF2DD6700369673 /* LOOpUITests.m */; };
+		DB500E0A1CF2E0F100369673 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500E091CF2E0F100369673 /* ViewController2.m */; };
+		DB500E0D1CF2E2D200369673 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = DB500E0C1CF2E2D200369673 /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		DB500DF61CF2DD6700369673 /* LOOpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOOpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB500DFA1CF2DD6700369673 /* LOOpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOOpUITests.m; sourceTree = "<group>"; };
 		DB500DFC1CF2DD6700369673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB500E081CF2E0F100369673 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DB500E091CF2E0F100369673 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		DB500E0B1CF2E2D200369673 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		DB500E0C1CF2E2D200369673 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +113,11 @@
 				DB500DD61CF2DD6600369673 /* AppDelegate.m */,
 				DB500DD81CF2DD6600369673 /* ViewController.h */,
 				DB500DD91CF2DD6600369673 /* ViewController.m */,
+				DB500E081CF2E0F100369673 /* ViewController2.h */,
+				DB500E091CF2E0F100369673 /* ViewController2.m */,
 				DB500DDB1CF2DD6700369673 /* Main.storyboard */,
+				DB500E0B1CF2E2D200369673 /* ViewController3.h */,
+				DB500E0C1CF2E2D200369673 /* ViewController3.m */,
 				DB500DE11CF2DD6700369673 /* Assets.xcassets */,
 				DB500DE31CF2DD6700369673 /* LaunchScreen.storyboard */,
 				DB500DE61CF2DD6700369673 /* Info.plist */,
@@ -205,7 +215,7 @@
 		DB500DC71CF2DD6600369673 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "iGO Studio";
 				TargetAttributes = {
 					DB500DCE1CF2DD6600369673 = {
@@ -275,6 +285,8 @@
 			files = (
 				DB500DDA1CF2DD6600369673 /* ViewController.m in Sources */,
 				DB500DD71CF2DD6600369673 /* AppDelegate.m in Sources */,
+				DB500E0D1CF2E2D200369673 /* ViewController3.m in Sources */,
+				DB500E0A1CF2E0F100369673 /* ViewController2.m in Sources */,
 				DB500DD41CF2DD6600369673 /* main.m in Sources */,
 				DB500DE01CF2DD6700369673 /* LOOp.xcdatamodeld in Sources */,
 			);
@@ -345,8 +357,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -390,8 +404,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -502,6 +518,7 @@
 				DB500E011CF2DD6700369673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB500E021CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +527,7 @@
 				DB500E041CF2DD6700369673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB500E051CF2DD6700369673 /* Build configuration list for PBXNativeTarget "LOOpUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +536,7 @@
 				DB500E071CF2DD6700369673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

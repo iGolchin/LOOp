@@ -14,10 +14,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidAppear:(BOOL)animated {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"First!");
+    [self performSegueWithIdentifier:@"first" sender:self];
+
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
